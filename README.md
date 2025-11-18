@@ -29,8 +29,7 @@ Os Quatro Pilares da POO
 A POO se apoia em quatro conceitos fundamentais que a tornam poderosa e flexível. A seguir, cada pilar é explicado e exemplificado.
 
 1. Abstração
-Conceito
-
+   
 Abstração é o processo de simplificar a complexidade, destacando apenas as características essenciais de um objeto e escondendo detalhes irrelevantes. Ao aplicar abstração, representamos um conceito complexo de forma clara e objetiva.
 
 Exemplo (Python)
@@ -56,7 +55,6 @@ print(figura.calcular_area())
 Aqui, Forma é uma abstração: sabemos que formas têm área, mas não precisamos saber como cada uma calcula.
 
 2. Encapsulamento
-Conceito
 
 Encapsulamento consiste em proteger os dados internos de um objeto, permitindo acesso apenas através de métodos controlados. Isso evita manipulação indevida e garante que o objeto mantenha sua integridade.
 
@@ -86,7 +84,6 @@ print(conta.obter_saldo())
 O atributo __saldo só pode ser alterado pelos métodos da classe.
 
 3. Herança
-Conceito
 
 Herança permite que uma classe (classe filha) reutilize e estenda características de outra classe (classe pai). Isso reduz duplicação de código e organiza melhor as relações entre objetos.
 
@@ -127,7 +124,6 @@ def emitir_som(animal):
 
 emitir_som(Gato())
 emitir_som(Vaca())
-
 
 A função emitir_som funciona com qualquer objeto que implemente falar, independentemente da classe.
 
